@@ -1,6 +1,12 @@
 //Task 1
 function largest(list){
+    let largetest = list[0];
+    for(let a=0;a<list.length;a++){
+        if(largest=list[a]){
 
+        }
+    }
+    return largest;
 }
 
 //Task 2
@@ -46,7 +52,7 @@ function weave(listA, listB){
 //Task 10
 //Attempt last
 function mergeInOrder(listA, listB){
-    
+
 }
 
 //Task 11
