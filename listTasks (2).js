@@ -35,12 +35,12 @@ function oddElements(list){
 //Task 5
 function total(list){
     let t = 0;
-    for (var t = 0; t < list.length; t++) {
-        t = t+list[t];
+    for (let a = 0; a < list.length; a++) {
+        t = t+list[a];
     }
-    return p;
+    return t;
 }
-}
+
 
 //Task 6
 function isPalindrome(list){
