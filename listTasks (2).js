@@ -1,7 +1,7 @@
 //Task 1
 function largest(list){
     let largetest = list[a];
-    for (let a = 0; a < list.length; a++){
+    for (let a = 0; a < list.length; a++;){
         if (max < list[a]){
             max = list[a];
         }
@@ -11,13 +11,16 @@ function largest(list){
 
 //Task 2
 function reverse(list){
-
+let r = list[a]
+  for(let a=0; a < list.length; a-;)
+    list.push(list[a])
+    return list[a];
 }
 
 //Task 3
 function cotains(list,e){
 
-    for (let a = 0; a < list.length; a++){
+    for (let a = 0; a < list.length; a++;){
         if (list[a] == e){
             return true;
         }
@@ -29,7 +32,10 @@ function cotains(list,e){
 
 //Task 4
 function oddElements(list){
-
+let o = list[a]
+  for(let a=1; a<a.length; a=a+2;)
+    list.push(list[a])
+    return list[a];
 }
 
 //Task 5
